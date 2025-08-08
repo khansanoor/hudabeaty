@@ -1,0 +1,49 @@
+Storyline – Huda Beauty’s Big Deal
+
+Scenario: You’re the lead Data Analyst at Huda Beauty. The company is in final talks with a major investor to secure a multi-million-dollar partnership.
+
+Your Task: 
+  To prove that Huda Beauty can:
+  - Identify and grow its VIP customer base
+  - Drive measurable regional sales growth
+  - Predict the success of upcoming product launches
+--> Huda needs a data-backed report by the end of the day to close the deal!
+
+The clock is ticking, and only you can pull the right KPIs, uncover patterns, and build a predictive case strong enough to win them over.
+
+Game Structure: 3 Locks / Stages
+
+🔐 Lock 1 – “Prove Our Customer Loyalty”
+  Use SQL to identify Platinum-tier customers with high CLV and low return rates.
+  KPI focus: Customer Lifetime Value (CLV), Repeat Purchase Rate.
+  Tables: orders, customers, returns.
+
+🔐 Lock 2 – “Show Our Market Growth”
+  Identify top 3 regions by quarterly sales growth and average order value.
+  KPI focus: Revenue Growth %, Average Order Value (AOV).
+  Regression element: Test whether influencer engagement rate predicts regional revenue.
+  Tables: orders, customers, campaigns, influencer_posts.
+
+🔐 Lock 3 – “Predict Our Next Big Launch”
+  Analyze category-level sales trends over the last 2 years to spot products with the highest growth potential.
+  KPI focus: Year-over-Year Category Growth %, Return Rate.
+  Regression element: Forecast potential sales for a new launch category based on historical performance + influencer engagement.
+  Tables: orders, products, returns, influencer_posts.
+
+
+
+----------------
+Portfolio Skills: SQL, Python, KPI calculation, regression, and business storytelling — all in one.
+
+Replayability: The game can be adjusted to different datasets or difficulty levels.
+
+Map this into a playable Streamlit flow where:
+
+You reveal one “lock” at a time.
+
+Users type in SQL queries to get the right KPI table.
+
+Streamlit verifies the result before unlocking the next stage.
+
+The final stage shows a “Investor Approved” screen if all steps are correct.
+
